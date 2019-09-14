@@ -20,6 +20,9 @@ cd ../
 cd /usr/local/src
 wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm
+#centos7 epel源安装
+yum -y install epel-release
+
 #安装gcc基础库文件以及sysstat工具
 yum -y install gcc gcc-c++ vim-enhanced unzip unrar sysstat
 #配置ntpdate自动对时
